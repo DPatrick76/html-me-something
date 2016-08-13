@@ -1,0 +1,142 @@
+/* STYLESHEET */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* START OF MY CSS RULES */
+body{
+	background-color: #ffb380;
+}
+
+header {
+	background: url(images/bullElk.jpg);
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: red;
+	font-size:8em;
+}
+
+h1, h2 {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+h1 {
+	font-weight: 600;
+	font-family: sans-serif;
+	font-size:2em;
+	margin-left: 2%;
+}
+
+h2{
+	font-weight: 600;
+	font-family: sans-serif;
+	font-size:2em;
+	margin-left: 2%;
+}
+
+p{
+	font-size:1.5em;
+	font-family: sans-serif;
+	padding: 3px 2%;
+	width: 80%;
+}
+
+img {
+	width:80%;
+	margin:auto;
+	padding:2px 2%;
+	height: 600px;
+}
+
+figcaption{
+	font-size: 1em;
+	font-family: sans-serif;
+	text-align:center;
+	padding: 2px 2%;
+	background-color: 	#c2bfbc;
+	width:48%;
+	margin:auto;
+	padding: .75em;
+	position:relative;
+	bottom:50px;
+
+}
+
+.mountains li {
+	float: left;
+	padding:2%;
+	width: 28%;
+}
+
+.mountains ul li{
+	width:100%;
+}
+
+#calling {
+	margin:auto;
+	background-color: #cccc00;
+	font-family:cursive;
+	font-size:1em;
+	font-weight: 500;
+	height:100px;
+	width: 10em;
+	text-align:center;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.clear{
+	clear: both;
+}
+
+footer{
+	background-color: grey;
+	margin-left:2%;
+	margin-right:2%;
+}
