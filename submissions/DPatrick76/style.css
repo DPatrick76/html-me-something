@@ -53,6 +53,18 @@ body{
 	background-color: #ffb380;
 }
 
+#wrapper{
+	width:90%;
+	margin:auto;
+	box-shadow: 10px 5px 5px black;
+	background-color:white;
+}
+article{
+	margin:2px auto 5px;
+	border-top: 1px solid black;
+	margin-bottom: 4px;
+}
+
 header {
 	background: url(images/bullElk.jpg);
     font-weight: 600;
@@ -63,7 +75,7 @@ header {
 }
 
 h1, h2 {
-	padding-top: 3px;
+	padding-top: 8px;
 	padding-bottom: 3px;
 }
 h1 {
@@ -88,19 +100,21 @@ p{
 }
 
 img {
-	width:80%;
+	width:90%;
 	margin:auto;
-	padding:2px 2%;
+	padding:2px 0;
 	height: 600px;
+	box-shadow: 10px 5px 5px black;
 }
 
 figcaption{
 	font-size: 1em;
 	font-family: sans-serif;
 	text-align:center;
+	font-weight: 600;
 	padding: 2px 2%;
 	background-color: 	#c2bfbc;
-	width:48%;
+	width:30%;
 	margin:auto;
 	padding: .75em;
 	position:relative;
@@ -112,23 +126,28 @@ figcaption{
 	float: left;
 	padding:2%;
 	width: 28%;
+	border: 3px black solid;
+	background-color:white;
 }
 
 .mountains ul li{
 	width:100%;
+
 }
 
 #calling {
 	margin:auto;
+	margin-bottom: 20px;
 	background-color: #cccc00;
 	font-family:cursive;
-	font-size:1em;
+	font-size:2em;
 	font-weight: 500;
 	height:100px;
 	width: 10em;
 	text-align:center;
 	padding-top: 20px;
 	margin-top: 20px;
+	box-shadow: 10px 5px 5px black;
 }
 
 .clear{
@@ -136,7 +155,9 @@ figcaption{
 }
 
 footer{
-	background-color: grey;
-	margin-left:2%;
-	margin-right:2%;
+	background-color: green;
+	width: 100%;
+	height: 50px;
+	padding-top:20px;
+	text-align:center;
 }
